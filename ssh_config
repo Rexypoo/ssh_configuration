@@ -1,0 +1,7 @@
+# Typically found in /etc/ssh/ssh_config
+
+# All I typically change is the private key location because I like to use the .key extension
+IdentityFile ~/.ssh/ssh_rsa.key
+IdentityFile ~/.ssh/ssh_dsa.key
+IdentityFile ~/.ssh/ssh_ecdsa.key
+IdentityFile ~/.ssh/ssh_ed25519.key
