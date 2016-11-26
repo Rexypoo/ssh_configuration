@@ -1,6 +1,9 @@
 # Typically located in /etc/ssh/sshd_config
 # If you use password auth then there are other settings to change, but since I don't there's only a few things
 
+# Set ssh port
+Port 22
+
 # Disable password auth
 PasswordAuthentication no
 
