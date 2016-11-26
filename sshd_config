@@ -1,0 +1,11 @@
+# Typically located in /etc/ssh/sshd_config
+# If you use password auth then there are other settings to change, but since I don't there's only a few things
+
+# Disable password auth
+PasswordAuthentication no
+
+# Disable ssh login for specific users
+DenyUsers root
+
+# Restrict logins to users in the 'ssh' group
+AllowGroups ssh
