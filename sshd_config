@@ -10,5 +10,8 @@ PasswordAuthentication no
 # Disable ssh login for specific users
 DenyUsers root
 
-# Restrict logins to users in the 'ssh' group
+# Restrict logins to users in the 'rlogin' group
 AllowGroups rlogin
+
+# If you have an encrypted home directory you want your authorized keys somewhere else
+AuthorizedKeysFile /etc/ssh/ssh_users/%u/authorized_keys
