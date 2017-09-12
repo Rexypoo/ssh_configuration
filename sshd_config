@@ -7,6 +7,10 @@ Port 22
 # Disable password auth
 PasswordAuthentication no
 
+# FreeBSD has an assinine implementation, so you'll need to disable password auth directly
+KbdInteractiveAuthentication no
+ChallengeResponseAuthentication no
+
 # Disable ssh login for specific users
 DenyUsers root
 
